@@ -1,0 +1,30 @@
+------------------
+This program tests that the notepad works.
+------------------
+dan, suzie, and alex are sat around a firepit in the woods.
+
+when dan talks about "fire to lines",
+dan rests his eyes.
+suzie draws a line on her page.
+if there is a fire burning, dan talks about "fire to lines".
+
+when suzie talks about "lines to twigs",
+suzie rubs a line off her page.
+dan leaves to scavenge for twigs.
+if suzie has some lines on her page, suzie talks about "lines to twigs".
+
+dan says "Enter first number: ".
+dan finds some twigs in his backpack.
+suzie takes out her notepad.
+suzie turns forward a page.     # doesn't do anything, just to test the statement.
+dan throws his twigs into the firepit.
+dan chucks a match into the firepit.
+
+dan talks about "fire to lines".
+suzie talks about "lines to twigs".
+
+dan throws his twigs into the firepit.
+dan chucks a match into the firepit.
+the fire hums an unfamiliar tune.
+
+they wish each other goodnight, and go their seperate ways.

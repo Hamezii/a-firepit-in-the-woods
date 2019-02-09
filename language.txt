@@ -1,0 +1,84 @@
+This is not an extensive documentation of afiw.
+
+People:
+    in order, the value of people is 1, 2, 4, etc...
+Items:
+    dan - nothing
+    suzie - notepad
+    alex - guitar
+people have their own unique special actions
+
+Objects:
+    twigs - unique to each person
+    firewood - shared between everyone
+
+Commands:
+dan, suzie, and alex are sat around a firepit in the woods.
+    code header
+
+they wish each other goodnight, and go their seperate ways.
+    code footer
+
+Actions:
+
+timed actions have a ': <number>' specifying how much time they take.
+
+<name> chucks a match into the firepit.
+    light a fire.
+    when a fire is lit, timed actions consumes 1 fuel.
+    a fire becomes unlit when it consumes all of the fuel.
+
+<name> says "Hello, world!"
+    print a certain string, then a newline
+
+the firepit hums/emnates a familiar tune.
+    print a letter corresponding to the current fuel level. a=1, z=26
+    lowercase if 'hums', uppercase if 'emnates'
+    print a space if the firepit is unlit
+
+the firepit hums an unfamiliar tune.
+    print the current fuel level as a number
+
+the firepit is calmly quiet.
+    print a newline.
+
+<name> chops some firewood. : 1
+    get <person value> firewood
+
+<name> puts some firewood into the firepit.
+    remove <person value> firewood and add <person value> to the fire fuel
+
+<name> leaves to scavenge for twigs. : 1
+    get <person value> twigs and add them to the person's personal pile
+
+<name> throws his twigs into the firepit.
+    remove all n twigs from the person, and add n to the fire fuel
+
+<name> talks about <thing>.
+    Triggers reactions (functions).
+
+Special actions:
+Suzie:
+suzie takes out her notepad.
+    must be called before using the notepad.
+
+
+Conditions:
+<name> has (any) twigs
+<name> doesn't have (any) twigs / <name> has no (more) twigs
+there is (any) firewood
+there isn't (any) firewood / there is no (more) firewood
+the fire is burning
+the fire isn't burning
+
+Conditionals and loops:
+when <name> talks about <thing>, 
+<actions>
+    reaction block
+    acts like a function
+
+if <condition>, <action>
+    if statement
+
+<action> until <condition/event>.
+    repeat last action until event occurs

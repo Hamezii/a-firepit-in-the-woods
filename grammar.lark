@@ -1,0 +1,72 @@
+start: _ANYTHING_LINE* header (instruction | when_talks_about | _ENDLINE)* footer _ENDLINE* _ANYTHING_LINE*
+
+header: _name_list " are sat around a firepit in the woods." _ENDLINE
+footer: "they wish each other goodnight, and go their seperate ways."
+
+?instruction: statement "." _ENDLINE
+            | statement " until " condition  "." _ENDLINE -> repeat
+            | "if " condition ", " instruction -> if_true
+            | footer _ENDLINE
+
+when_talks_about: "when " name " talks about " SPEECH "," _ENDLINE codeblock
+
+codeblock: (instruction)+ _ENDLINE
+
+statement: name " " _THROW_ACTION " a match into the firepit" -> light_fire
+    | name " says " SPEECH -> say
+    | "the fire" "pit"? " hums a familiar tune" -> firepit_lowercase
+    | "the fire" "pit"? " emnates a familiar tune" -> firepit_uppercase
+    | "the fire" "pit"? " hums an unfamiliar tune" -> firepit_number
+    | "the fire" "pit"? " is calmly quiet" -> firepit_newline
+    | name " chops" " some"? " firewood" -> get_firewood
+    | name " " _THROW_ACTION " some firewood into the firepit" -> use_firewood
+    | name " leaves to scavenge for twigs" -> get_twigs
+    | MALE_NAME " finds some twigs in his backpack" -> ask_twigs
+    | FEMALE_NAME " finds some twigs in her backpack" -> ask_twigs
+    | MALE_NAME " rests his eyes" -> wait
+    | FEMALE_NAME " rests her eyes" -> wait
+    | MALE_NAME " " _THROW_ACTION " his twigs into the firepit" -> use_twigs
+    | FEMALE_NAME " " _THROW_ACTION " her twigs into the firepit" -> use_twigs
+    | name " talks about " SPEECH -> talk
+    | "suzie takes out her notepad" -> init_notepad
+    | "suzie " ("draw"|"add") "s a line on her page" -> inc_page
+    | "suzie " ("erase"|"rub"|"remove"|"take") "s a line off" " of"? " her page" -> dec_page
+    | "suzie turns forward" "s"? " a page" -> next_page
+    | "suzie turns " ("back" | "backward" "s"?) " a page" -> last_page
+
+
+condition: "the fire " ("burns" | "goes") " out" -> no_fire
+         | "there is no" ("t a" | " more")? " fire" -> no_fire
+         | "there is a fire" " burning"? -> yes_fire
+         | name " "("has no" " more"? | "runs out of") " twigs" -> no_twigs
+         | name " has" (" any" | " some")? " twigs" -> yes_twigs
+         | "there is no" " more"? " firewood" " left"? -> no_firewood
+         | "there is" (" any" | " some")? " firewood" ->  yes_firewood
+         | "suzie has no" " more"? " lines on her page" -> no_lines
+         | "suzie has" (" any" | " some")? " lines on her page" -> yes_lines
+
+_name_list: name " and " name
+         | name (", " name)+ ", and " name
+
+?name: MALE_NAME
+     | FEMALE_NAME
+
+MALE_NAME: "dan"
+         | "alex"
+
+FEMALE_NAME: "suzie"
+
+POSSESSIVE: "his"
+          | "her"
+
+SPEECH: /"/ STRING /"/
+STRING: /.+/
+
+_THROW_ACTION: "throws" | "chucks" | "puts" 
+
+_ENDLINE: " "* COMMENT? "\n"
+_ANYTHING_LINE: /.*\n/
+
+COMMENT: /#.*/
+
+%ignore COMMENT

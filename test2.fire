@@ -1,0 +1,28 @@
+This program prints the alphabet.
+Then it prints the alphabet backwards.
+
+dan, suzie, and alex are sat around a firepit in the woods.
+
+alex chops some firewood.
+alex chops some firewood.
+alex chops some firewood.
+alex chops some firewood.
+alex chops some firewood.
+alex chops some firewood.
+suzie chops some firewood.
+
+when dan talks about "incrementing", # increase fuel by 1 and print letter
+dan puts some firewood into the firepit.
+dan chucks a match into the firepit.
+the fire hums a familiar tune.
+
+when dan talks about "decrementing", 
+the fire hums a familiar tune. # Print letter
+dan rests his eyes. # Lower fuel by 1
+the firepit is calmly quiet.
+
+dan talks about "incrementing" until there is no firewood left.
+dan chops some firewood.
+dan talks about "decrementing" until the fire burns out. 
+
+they wish each other goodnight, and go their seperate ways.

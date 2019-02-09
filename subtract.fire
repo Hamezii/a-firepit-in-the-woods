@@ -1,0 +1,29 @@
+This one ask for 2 numbers and subtracts them
+
+dan, suzie, and alex are sat around a firepit in the woods.
+
+when alex talks about "to firewood",
+alex throws his twigs into the firepit.
+alex chucks a match into the firepit.
+dan chops some firewood until the fire burns out.
+
+when dan talks about "-1",
+dan puts some firewood into the firepit.
+suzie rests her eyes.
+if there is no fire, alex puts some firewood into the firepit until there is no firewood.
+#the above line is just for optimisation.
+
+alex says "Enter first number: ".
+alex finds some twigs in his backpack.
+dan says "Enter second number: ".
+dan finds some twigs in his backpack.
+alex talks about "to firewood".
+dan throws his twigs into the firepit.
+dan chucks a match into the firepit.
+dan talks about "-1" until there is no more firewood.
+if there is a fire, alex says "-".
+alex chucks a match into the firepit.
+the fire hums an unfamiliar tune.
+
+
+they wish each other goodnight, and go their seperate ways.

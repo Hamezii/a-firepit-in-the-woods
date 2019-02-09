@@ -1,0 +1,40 @@
+this program asks for 2 numbers and multiplies them
+
+dan, suzie, and alex are sat around a firepit in the woods.
+
+when dan talks about "decrement",   
+dan puts some firewood into the firepit.
+dan chucks a match into the firepit.
+dan rests his eyes.
+
+when suzie talks about "double",
+suzie throws her twigs into the firepit.
+suzie chucks a match into the firepit.
+suzie leaves to scavenge for twigs until the fire burns out.
+
+when suzie talks about "share",
+suzie leaves to scavenge for twigs.
+dan leaves to scavenge for twigs.
+
+when dan talks about "add",
+dan talks about "decrement".
+suzie throws her twigs into the firepit.
+suzie chucks a match into the firepit.
+suzie talks about "share" until the fire burns out.
+
+suzie says "Input first number: ".
+suzie finds some twigs in her backpack.
+suzie throws her twigs into the firepit.
+suzie chucks a match into the firepit.
+dan chops firewood until the fire burns out.
+
+suzie says "Input second number: ".
+suzie finds some twigs in her backpack.
+suzie talks about "double".
+dan talks about "add" until there is no more firewood.
+
+dan throws his twigs into the firepit.
+suzie chucks a match into the firepit.
+the fire hums an unfamiliar tune.
+
+they wish each other goodnight, and go their seperate ways.
