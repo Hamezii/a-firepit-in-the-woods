@@ -1,0 +1,17 @@
+A truth machine. 
+If the user inputs a 0, the program outputs 0 and terminates.
+If the user inputs a 1, the program outputs 1 indefinitely.
+
+dan and suzie are sat around a firepit in the woods.
+
+when dan talks about "repeat",
+dan throws his twigs into the firepit.
+dan throws a match into the firepit.
+the firepit hums an unfamiliar tune.
+the firepit is calmly quiet.
+dan leaves to scavenge for twigs.
+
+dan finds some twigs in his backpack.
+if dan has twigs, dan talks about "repeat" until there is a fire burning.
+the firepit hums an unfamiliar tune.
+they wish each other goodnight, and go their separate ways.

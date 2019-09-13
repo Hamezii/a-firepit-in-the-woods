@@ -23,15 +23,28 @@ dan puts a match into the firepit.
 the fire hums a familiar tune.
 they wish each other goodnight, and go their seperate ways.
 ```
-- `dan and alex are sat around a firepit in the woods.`
+## Truth machine
 
-The starting line of a FITW program. Any combination of two or more people can be sat around the firepit, as long as they are valid characters. 
+    dan and suzie are sat around a firepit in the woods.
 
+    when dan talks about "repeat",
+    dan throws his twigs into the firepit.
+    dan throws a match into the firepit.
+    the firepit hums an unfamiliar tune.
+    the firepit is calmly quiet.
+    dan leaves to scavenge for twigs.
+
+    dan finds some twigs in his backpack.
+    if dan has twigs, dan talks about "repeat" until there is a fire burning.
+    the firepit hums an unfamiliar tune.
+    they wish each other goodnight, and go their separate ways.
+If the user inputs a 0, the program outputs 0 and terminates.
+If the user inputs a 1, the program outputs 1 indefinitely.
 
 # Syntax
 All *A Firepit in the Woods* source code is in lower case. 
 
-## **Start of program**
+## Start of program
 The code section of a file always begins with an establishing sentence stating who is sat around the firepit:
 
     dan, alex, and suzie are sat around a firepit in the woods.
