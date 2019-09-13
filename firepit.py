@@ -256,7 +256,7 @@ def interpret(source_file_path):
     #print(tree.pretty(), "\n")
     Interpreter().execute(tree)
     print()
-    input("Done.")
+    #input("Done.")
 
 def main():
     """Run the interpreter."""

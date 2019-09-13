@@ -1,7 +1,7 @@
 start: _ANYTHING_LINE* header (instruction | when_talks_about | _ENDLINE)* footer _ENDLINE* _ANYTHING_LINE*
 
 header: _name_list " are sat around a firepit in the woods." _ENDLINE
-footer: "they wish each other goodnight, and go their seperate ways."
+footer: "they wish each other goodnight, and go their separate ways."
 
 ?instruction: statement "." _ENDLINE
             | statement " until " condition  "." _ENDLINE -> repeat

@@ -16,7 +16,7 @@ Commands:
 dan, suzie, and alex are sat around a firepit in the woods.
     code header
 
-they wish each other goodnight, and go their seperate ways.
+they wish each other goodnight, and go their separate ways.
     code footer
 
 Actions:
