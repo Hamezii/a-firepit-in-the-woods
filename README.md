@@ -79,5 +79,5 @@ Adding a `#` in a program will cause the interpreter to ignore the rest of the l
 
     they wish each other goodnight, and go their separate ways.
 
-    Anything down here, after the footer is ignored too.
+    Anything down here, after the footer, is ignored too.
 
