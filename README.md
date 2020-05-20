@@ -67,11 +67,11 @@ This is in order for the narrative to get proper closure, that is all.
 ## Comments
 Any text on the lines before the header or after the footer are ignored, so can contain any arbitrary text.
 
-Adding a '#' in the program will cause the interpreter to ignore the rest of the code.
+Adding a `#` in the program will cause the interpreter to ignore the rest of the code.
 
     You can describe the program here if you like, no worries!
     Anything above the header is ignored.
-    
+
     dan and alex are sat around a firepit in the woods.
 
     dan talks about "girls". # this is a valid comment
