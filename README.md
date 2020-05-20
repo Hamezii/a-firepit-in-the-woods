@@ -42,7 +42,7 @@ If the user inputs a 0, the program outputs 0 and terminates.
 If the user inputs a 1, the program outputs 1 indefinitely.
 
 # Syntax
-All *A Firepit in the Woods* source code is in lower case. 
+All *A Firepit in the Woods* source code is in lower case, for that ***chillll vibe***.
 
 ## Start of program
 The code section of a file always begins with an establishing sentence stating who is sat around the firepit:
@@ -55,7 +55,7 @@ Any combination of two or more people can be sat around the firepit, as long as 
  - Suzie
 
 Certain characters can perform actions which are unique to them:
-- Suzie has a notepad which she can flip through, and draw/erase lines on the pages. It acts similar to a tape which can store integer values, and Suzie reads and writes to the page she is currently on.
+- Suzie has a notepad which she can flip through, and draw/erase lines on the pages. It acts similar to a tape, where each page can store an integer value (number of lines), and Suzie reads and writes to the page she is currently on.
 
 
 
