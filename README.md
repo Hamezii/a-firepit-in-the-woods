@@ -44,6 +44,7 @@ If the user inputs a 1, the program outputs 1 indefinitely.
 # Syntax
 All *A Firepit in the Woods* source code is in lower case, for that ***chillll vibe***.
 
+> **Note**: The documentation on this language is not complete. For a more complete but less organised list of commands, check out *language.txt*.
 ## Start of program (header)
 The code section of a program always begins with an establishing sentence stating who is sat around the firepit:
 
