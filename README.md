@@ -1,11 +1,10 @@
 # A Firepit in the Woods
 ```
 dan, suzie, and alex are sat around a firepit in the woods.
-dan talks about "the 90's".
+dan talks about "the 90s".
 alex chops some firewood.
 the fire hums a familiar tune.
 ```
-
 
 # Overview
 *A Firepit in the Woods* is a fantasy language, or esolang. 
@@ -42,9 +41,11 @@ If the user inputs a 0, the program outputs 0 and terminates.
 If the user inputs a 1, the program outputs 1 indefinitely.
 
 # Syntax
+
+> **Note**: The documentation on this language is not complete. For a more complete but less organised list of commands and syntax, check out *language.txt*.
+
 All *A Firepit in the Woods* source code is in lower case, for that ***chillll vibe***.
 
-> **Note**: The documentation on this language is not complete. For a more complete but less organised list of commands, check out *language.txt*.
 ## Start of program (header)
 The code section of a program always begins with an establishing sentence stating who is sat around the firepit:
 
