@@ -7,22 +7,29 @@ the fire hums a familiar tune.
 ```
 
 # Overview
-*A Firepit in the Woods* is a fantasy language, or esolang. 
+*A Firepit in the Woods* is a fantasy programming language, or [esolang](https://esolangs.org/wiki/Esoteric_programming_language). 
 
-Source code in this language documents the actions of some friends sitting around a campfire. 
+The language's syntax is designed to look like it's documenting the actions of some friends sitting around a campfire. 
 Each program takes place over the course of an evening.
+
+This repository defines the syntax of the language, and implements a fully-functional parser using Python.
+
 
 # Example Code
 ## Output the letter 'a'.
-```
-dan and alex are sat around a firepit in the woods.
-dan chops some firewood.
-dan puts some firewood into the firepit.
-dan puts a match into the firepit.
-the fire hums a familiar tune.
-they wish each other goodnight, and go their seperate ways.
-```
+
+    dan and alex are sat around a firepit in the woods.
+    dan chops some firewood.
+    dan puts some firewood into the firepit.
+    dan puts a match into the firepit.
+    the fire hums a familiar tune.
+    they wish each other goodnight, and go their seperate ways.
+
 ## Truth machine
+
+If the user inputs a 0, the program outputs 0 and terminates.
+
+If the user inputs a 1, the program outputs 1 indefinitely.
 
     dan and suzie are sat around a firepit in the woods.
 
@@ -37,12 +44,10 @@ they wish each other goodnight, and go their seperate ways.
     if dan has twigs, dan talks about "repeat" until there is a fire burning.
     the firepit hums an unfamiliar tune.
     they wish each other goodnight, and go their separate ways.
-If the user inputs a 0, the program outputs 0 and terminates.
-If the user inputs a 1, the program outputs 1 indefinitely.
 
 # Syntax
 
-> **Note**: The documentation on this language is not complete. For a more complete but less organised list of commands and syntax, check out *language.txt*.
+> **Note**: The documentation on this language is not complete. For a more complete but less organised list of commands and syntax, check out `language.txt`. For a full definition of the grammar syntax check out `grammar.lark`.
 
 All *A Firepit in the Woods* source code is in lower case, for that ***chillll vibe***.
 
