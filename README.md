@@ -14,6 +14,8 @@ Each program takes place over the course of an evening.
 
 This repository defines the syntax of the language, and implements a fully-functional parser using Python.
 
+### Contact
+For any queries or if you just want to get in touch, email me at hameziipost@gmail.com or hit up my Twitter https://twitter.com/hamezii_
 
 # Example Code
 ## Output the letter 'a'.
@@ -44,6 +46,9 @@ If the user inputs a 1, the program outputs 1 indefinitely.
     if dan has twigs, dan talks about "repeat" until there is a fire burning.
     the firepit hums an unfamiliar tune.
     they wish each other goodnight, and go their separate ways.
+
+## More examples
+Check out the `.fire` files in the repo for more code examples.
 
 # Syntax
 
