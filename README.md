@@ -15,7 +15,7 @@ Each program takes place over the course of an evening.
 This repository defines the syntax of the language, and implements a fully-functional parser using Python.
 
 ### Contact
-For any queries or if you just want to get in touch, email me at hameziipost@gmail.com or hit up my Twitter https://twitter.com/hamezii_
+For any queries or if you just want to get in touch, email me at hameziipost@gmail.com or hit up my [Twitter](https://twitter.com/hamezii_)
 
 # Example Code
 ## Output the letter 'a'.
